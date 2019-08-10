@@ -1,0 +1,70 @@
+{
+  "connection": "default",
+  "collectionName": "resource",
+  "info": {
+    "name": "resource",
+    "description": "A re-entry resource for use by end users."
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "orgName": {
+      "minLength": 1,
+      "required": true,
+      "type": "string"
+    },
+    "primaryPhoneNumber": {
+      "required": true,
+      "type": "string"
+    },
+    "website": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "county": {
+      "type": "string"
+    },
+    "address": {
+      "model": "address"
+    },
+    "altPhoneNumber": {
+      "type": "string"
+    },
+    "orgType": {
+      "enum": [
+        "Substance Abuse & Mental Health",
+        "Education",
+        "Food",
+        "Support Group",
+        "Legal",
+        "Job",
+        "Shelter",
+        "Veteran",
+        "Mental Health",
+        "Substance Abuse",
+        "Referral",
+        "Education / Job",
+        "Substance Abuse / Mental Health",
+        "Housing",
+        "Referral, Education, Job, Legal",
+        "Medical",
+        "Sex offender treatment",
+        "Parole & Probation",
+        "Victim Services",
+        "Shelter/ Substance Abuse",
+        "Child support",
+        "Travel",
+        "Veterans",
+        "Employment"
+      ],
+      "type": "enumeration"
+    }
+  }
+}
