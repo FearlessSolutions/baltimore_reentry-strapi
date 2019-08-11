@@ -535,35 +535,6 @@
           "county": {
             "type": "string"
           },
-          "address": {
-            "required": [
-              "id",
-              "street"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "street": {
-                "type": "string"
-              },
-              "city": {
-                "type": "string"
-              },
-              "state": {
-                "type": "string"
-              },
-              "zip": {
-                "type": "string"
-              },
-              "neighborhood": {
-                "type": "string"
-              },
-              "quadrant": {
-                "type": "string"
-              }
-            }
-          },
           "altPhoneNumber": {
             "type": "string"
           },
@@ -595,6 +566,24 @@
               "Veterans",
               "Employment"
             ]
+          },
+          "city": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "zip": {
+            "type": "string"
+          },
+          "neighborhood": {
+            "type": "string"
+          },
+          "quadrant": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
           }
         }
       },
@@ -621,9 +610,6 @@
           "county": {
             "type": "string"
           },
-          "address": {
-            "type": "string"
-          },
           "altPhoneNumber": {
             "type": "string"
           },
@@ -655,6 +641,24 @@
               "Veterans",
               "Employment"
             ]
+          },
+          "city": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "zip": {
+            "type": "string"
+          },
+          "neighborhood": {
+            "type": "string"
+          },
+          "quadrant": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
           }
         }
       }
